@@ -1,0 +1,53 @@
+
+body{
+
+
+
+}
+
+h1{ background: url("../images/bottles.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 600;
+
+	text-align: center;
+	color: #000000
+	
+	
+	
+}
+
+h4{font-family: 'Josefin Sans', sans-serif;
+font-weight: 500;
+
+}
+
+img{
+
+}
+
+p{
+
+}
+#slogan{
+font-family: 'Frank Ruhl Libre', serif;
+font-style: italic;
+	
+
+	
+
+}
+
+ul{
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 100;
+line-height: 1.5em;
+
+}
+
+
+#contact{font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+		}
+
