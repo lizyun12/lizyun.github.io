@@ -1,3 +1,4 @@
+
 body{
 
 
@@ -7,14 +8,19 @@ body{
 h1{ background: url("../images/bottles.jpg");
 background-repeat:no-repeat;
 background-size: cover;
-font-family: Times New Roman;
-	font-size: 80px;
-	font-weight:600;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 600;
+
 	text-align: center;
 	color: #000000
 	
 	
 	
+}
+
+h4{font-family: 'Josefin Sans', sans-serif;
+font-weight: 500;
+
 }
 
 img{
@@ -24,18 +30,26 @@ img{
 p{
 
 }
-#slogan{font-style: italic;
+#slogan{
+font-family: 'Frank Ruhl Libre', serif;
+font-style: italic;
+	
+
 	
 
 }
 
 ul{
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 100;
+line-height: 1.5em;
 
 }
 li{
 
 }
 
-#contact{font-weight: bold;
-		font-size: 24px;}
+#contact{font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+		}
 
