@@ -1,0 +1,74 @@
+
+body{
+
+}
+
+header{
+	background-color:#FFED74;
+    border: 1px black solid;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 20px;
+}
+
+	h1{
+		color: #000000;
+		font-weight: 700;
+		text-align: center;
+	
+	}	
+
+	nav{
+		background-color:#E8C66A;
+		border: 1px black solid;
+		padding: 20px;
+
+	}
+
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 20px;
+
+}
+
+	h2{
+	font-family: 'Frank Ruhl Libre', serif;
+	}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+ul{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	line-height: 1.5em;
+
+}
+
+.shop{
+	background-color:#FFC675;
+	border:1px black solid;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 20px;
+
+}
+
+#about-us{
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+#slogan{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-style: italic;
+}	
+
+
+
