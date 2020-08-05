@@ -4,8 +4,8 @@ body{
 }
 
 header{
-	background-color:#FFED74;
     border: 1px black solid;
+    color: #FFED74;
     font-family: 'Frank Ruhl Libre', serif;
     padding: 20px;
 }
@@ -18,16 +18,20 @@ header{
 	}	
 
 	nav{
-		background-color:#E8C66A;
 		border: 1px black solid;
+		color: #E8C66A;
 		padding: 20px;
 
 	}
 
+		nav a{
+
+		}
+
 
 article{
-	background-color: #E89C6C;
 	border: 1px black solid;
+	color: #E89C6C;
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 20px;
 
@@ -38,9 +42,7 @@ article{
 	}
 
 footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+
 }
 
 
@@ -52,18 +54,37 @@ ul{
 }
 
 .shop{
-	background-color:#FFC675;
 	border:1px black solid;
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 20px;
 
 }
 
-#about-us{
-	font-family: 'Josefin Sans', sans-serif;
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {    
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
 
 }
 
+#section {
+	color:#FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+
+}
 
 #slogan{
 	font-family: 'Frank Ruhl Libre', serif;
