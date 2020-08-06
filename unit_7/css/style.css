@@ -1,0 +1,106 @@
+
+body{
+
+}
+
+
+header{
+	background: url("../images/header-flower.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+    font-family: 'Frank Ruhl Libre', serif;
+    letter-spacing: .1em;
+    padding: 20px;
+    text-align: center;
+}
+	
+	header p{
+		font-family: 'Montserrat',sans-serif;
+
+	}
+
+nav{
+	background-color: #dcdddf;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 5px;
+
+}
+
+	nav a{
+		color: #072d33;
+		letter-spacing:.05em; 
+		text-decoration: none;
+		padding: 10px;
+		
+
+	}
+
+article{
+	
+	border: 1px black solid;
+	font-family: 'Montserrat',sans-serif;
+	padding: 20px;
+
+}
+
+	h2{
+	font-family: 'Frank Ruhl Libre', serif;
+	}
+
+footer{
+
+}
+
+
+ul{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	line-height: 1.5em;
+
+}
+
+.wrapper{
+
+}
+
+.shop{
+	border: 1px black solid;
+	font-family: 'Montserrat',sans-serif;
+	padding: 20px;
+
+}
+
+a:hover{
+	background-color: #b8baba;
+
+}
+
+#two_column {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#left {
+    border: 1px black solid;
+    float: left;
+    width: 32%;
+}
+
+#right {
+    border: 1px black solid;
+    float: right;
+    width: 64%;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
