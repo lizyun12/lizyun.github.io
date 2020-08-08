@@ -4,95 +4,143 @@ body{
 }
 
 
+
 header{
 	background: url("../images/header-flower.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
+	color: #f6f3ee;
     font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.45em;
     letter-spacing: .1em;
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
 }
 	
 	header p{
+		color: #f6f3ee;
 		font-family: 'Montserrat',sans-serif;
-
+		margin: 0;
 	}
 
 nav{
-	background-color: #dcdddf;
-	font-family: 'Frank Ruhl Libre', serif;
-	font-size: 1.25em;
+	background-color:#fcf9f2;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid orange;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 1.5em;
 	font-weight: bold;
+	letter-spacing: .05em;
+	text-align: right;
 	padding: 5px;
-
 }
 
 	nav a{
-		color: #072d33;
-		letter-spacing:.05em; 
+		color: #364558;
 		text-decoration: none;
-		padding: 10px;
-		
+		padding: 10px;	
 
 	}
 
-article{
-	
-	border: 1px black solid;
-	font-family: 'Montserrat',sans-serif;
-	padding: 20px;
+	a:hover{
+	background-color: #b8baba;
+	}
 
+h2{
+	color: #1a2029;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.75em;
+	letter-spacing: .02em;
+	text-align: left;
 }
 
-	h2{
-	font-family: 'Frank Ruhl Libre', serif;
-	}
+
+main{
+	background-color: #ffbf17;
+	border-bottom: 1px solid orange;
+}
+
+p{
+	color:#1a2029;
+	font-size: 1.1em;
+	letter-spacing: .01em;
+	width: 75%;
+
+}
 
 footer{
-
+	background-color:#fcf9f2;
+	font-family: 'Frank Ruhl Libre', serif;
+	padding: 2%;
 }
 
 
-ul{
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 100;
-	line-height: 1.5em;
+	footer a{
+		color: #0052d1;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+
+#shop{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.1em;
+	padding: 2%;
 
 }
 
-.wrapper{
-
+#shopleft{
+	float: left;
+	width: 57%;
+	margin: auto;
 }
 
-.shop{
-	border: 1px black solid;
-	font-family: 'Montserrat',sans-serif;
-	padding: 20px;
 
+#shopright{
+	float: right;
+	width: 37%;
+	margin: auto;
+	text-align: center;
+	
 }
 
-a:hover{
-	background-color: #b8baba;
+#blogpost{
+	font-family: 'Frank Ruhl Libre', serif;
+	padding: 2%;
 
+	
 }
 
-#two_column {
-    border: 1px black solid;
-    padding: 5px;
+#articleleft{
+	float:left;
+	width: 40%;
+	margin: auto;
+	
 }
 
-#left {
-    border: 1px black solid;
+#articleright{
+	float:right;
+	width: 56%;
+	margin: auto;
+	
+}
+
+#shopleft img, #shopright img, #articleright img, #articleleft img{
+	width:100%;
+}
+
+
+#leftfooter{
     float: left;
-    width: 32%;
+    width: 30%;
+   margin: auto;
 }
 
-#right {
-    border: 1px black solid;
+#rightfooter {
     float: right;
-    width: 64%;
+    width: 66%;
+   margin: auto;
 }
+
 
 .clearfix:after{
     visibility: hidden;
