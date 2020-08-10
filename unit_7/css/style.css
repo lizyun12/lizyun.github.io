@@ -57,18 +57,29 @@ h2{
 main{
 	background-color: #ffbf17;
 	border-bottom: 1px solid orange;
+	padding: 2%;
+	text-align: center;
 }
+		main img{
+			width:100%;
+		}
+
+		main h2{
+			text-align: center;
+		}
+
 
 p{
 	color:#1a2029;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	letter-spacing: .01em;
-	width: 75%;
+	width: 25em;
+	margin: auto;
 
 }
 
 footer{
-	background-color:#fcf9f2;
+	background-color:#fcf9e3;
 	font-family: 'Frank Ruhl Libre', serif;
 	padding: 2%;
 }
@@ -81,51 +92,38 @@ footer{
 	}
 
 
-#shop{
+.sectionwrap{
 	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 1.1em;
-	padding: 2%;
-
+	margin: auto;
 }
 
 #shopleft{
 	float: left;
-	width: 57%;
-	margin: auto;
+	width: 53%;
+	padding: 1%;
 }
 
 
 #shopright{
 	float: right;
-	width: 37%;
-	margin: auto;
-	text-align: center;
-	
-}
-
-#blogpost{
-	font-family: 'Frank Ruhl Libre', serif;
-	padding: 2%;
-
+	width: 39%;
+	padding: 1%;
 	
 }
 
 #articleleft{
 	float:left;
-	width: 40%;
-	margin: auto;
-	
+	width: 34%;
+	padding: 1%;
+
 }
 
 #articleright{
 	float:right;
-	width: 56%;
-	margin: auto;
+	width: 58%;
+	padding: 1%;
 	
-}
-
-#shopleft img, #shopright img, #articleright img, #articleleft img{
-	width:100%;
 }
 
 
