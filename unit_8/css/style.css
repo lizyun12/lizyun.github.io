@@ -1,0 +1,221 @@
+
+header{
+	background: url("../images/header-flower.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f6f3ee;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.45em;
+    letter-spacing: .1em;
+    padding: 2%;
+}
+	
+	header p{
+		color: #f6f3ee;
+		font-family: 'Montserrat', sans-serif;
+		margin: 0;
+	}
+
+nav{
+	background-color:#fcf9f2;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid orange;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .05em;
+	text-align: right;
+	padding: 1%;
+	
+}
+
+	nav a{
+		color: #364558;
+		margin: 1%;
+		text-decoration: none;	
+	}
+
+	a:hover{
+	background-color: #b8baba;
+	}
+
+label{
+	background-color:#fcf9f2;
+	color: #364558;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .05em;
+	text-align: right;
+	display: none;
+}
+
+h2{
+	color: #1a2029;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.75em;
+	letter-spacing: .02em;
+	text-align: left;
+	padding: 1%;
+}
+
+
+main{
+	background-color: #ffbf17;
+	border-bottom: 1px solid orange;
+	padding: 2%;
+	text-align: center;
+}
+		main img{
+			width: 100%;
+		}
+
+		main h2{
+			text-align: center;
+			padding: 2%;
+		}
+
+section{
+	background-color: #f6f0ea;
+
+}
+
+article{
+	background-color: #f1f6fd;
+}
+
+
+footer{
+	background-color:#fcf9e3;
+	font-family: 'Frank Ruhl Libre', serif;
+	padding: 2% 20%;
+}
+
+
+	footer a{
+		color: #0052d1;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+.sectionwrap{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.1em;
+	margin: 2%;
+	
+
+}
+	.sectionwrap p{
+		width: 65%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.large{ 
+		float: left;
+		width: 58%;
+		padding-bottom: 2%;
+		margin-bottom: 5%;
+
+	}
+
+	.small{
+		float: right;
+		width: 38%;
+		padding-bottom: 2%;
+	}
+
+
+#leftfooter{
+    float: left;
+    width: 15%;
+  
+}
+
+#rightfooter {
+    float: right;
+    width: 50%;
+}
+
+#toggle{
+	display: none;
+}
+
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 500px) {
+	header{
+		background: url("../images/header-flower2.jpg");
+		background-size: auto;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	.large{
+		float: none;
+		width: 100%;
+	}
+
+	.small{
+		float: none;
+		width: 100%;
+	}
+
+	footer{
+
+	}
+}
+
+@media only screen and (max-width: 580px)	{
+	header{
+		background-size: cover;
+	}
+
+	label{
+		display: block;
+
+	}
+
+	nav{
+		display: none;
+	}
+
+	
+
+	header p{
+		display: none;
+	}
+
+	footer{
+		padding: 3% 10%;
+	}
+
+	.sectionwrap p{
+		width: 90%;
+		padding: 5%;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
+	#rightfooter{
+		float: none;
+		width: 90%;
+	}
+
+	#leftfooter{
+		float: none;
+		width: 90%;
+	}
+}
+
