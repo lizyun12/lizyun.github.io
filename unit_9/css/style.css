@@ -7,13 +7,12 @@ header{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 1.45em;
     letter-spacing: .1em;
-    padding: 2%;
+    padding: 5% 3%;
 }
 	
 	header p{
 		color: #f6f3ee;
 		font-family: 'Montserrat', sans-serif;
-		margin: 0;
 	}
 
 nav{
@@ -39,40 +38,21 @@ nav{
 	background-color: #b8baba;
 	}
 
-label{
-	background-color:#fcf9f2;
-	color: #364558;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	letter-spacing: .05em;
-	text-align: right;
-	display: none;
-}
-
 h2{
 	color: #1a2029;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.75em;
 	letter-spacing: .02em;
-	text-align: left;
-	padding: 1%;
+	padding: 0 1.75em;
+	text-align: center;
 }
 
 
 main{
-	background-color: #ffbf17;
 	border-bottom: 1px solid orange;
-	padding: 2%;
-	text-align: center;
-}
+	}
 		main img{
 			width: 100%;
-		}
-
-		main h2{
-			text-align: center;
-			padding: 2%;
 		}
 
 section{
@@ -91,40 +71,50 @@ footer{
 	padding: 2% 20%;
 }
 
-
 	footer a{
 		color: #0052d1;
 		font-weight: bold;
 		text-decoration: none;
 	}
 
-.sectionwrap{
+.sectionwrap p{
 	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 1.1em;
-	margin: 2%;
-	
+	margin: auto;
+	padding-bottom: 2em;
+	width: 65%;
+}
+
+.large{ 
+	float: left;
+	width: 56%;
+	margin: 2% 4%;
 
 }
-	.sectionwrap p{
-		width: 65%;
-		margin: auto;
-		text-align: center;
-	}
 
-	.large{ 
-		float: left;
-		width: 58%;
-		padding-bottom: 2%;
-		margin-bottom: 5%;
+.small{
+	float: left;
+	width: 28%;
+	margin: 4%;
+}
 
-	}
+#shop{
+	background-color: #faf2e8;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 2em;
+	letter-spacing: .05em;
+	padding: 1em;
+	margin: 2% 33.333%;
+}
 
-	.small{
-		float: right;
-		width: 38%;
-		padding-bottom: 2%;
-	}
-
+#read{
+	background-color: #e1ecfa;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 2em;
+	letter-spacing: .05em;
+	padding: 1em;
+	margin: 2% 33.333%;
+}
 
 #leftfooter{
     float: left;
@@ -137,11 +127,6 @@ footer{
     width: 50%;
 }
 
-#toggle{
-	display: none;
-}
-
-
 .clearfix:after{
     visibility: hidden;
     display: block;
@@ -151,27 +136,42 @@ footer{
     height: 0;
 }
 
-@media only screen and (max-width: 1500px) and (min-width: 500px) {
+@media only screen and (max-width: 1500px) and (min-width: 800px) {
 	header{
 		background: url("../images/header-flower2.jpg");
 		background-size: auto;
+		margin: auto;
 	}
 }
 
 @media only screen and (max-width: 800px) {
+	header p{
+		display: none;
+	}
+	h1{
+		display: inline-block;
+		margin: 3%;
+		width: 33.333%;
+	}
+	nav{
+		margin-bottom: 5%;
+	}
 
 	.large{
-		float: none;
+		letter-spacing: 0;
 		width: 100%;
+		margin: 5% 0;
 	}
 
 	.small{
-		float: none;
+		letter-spacing: 0;
 		width: 100%;
+		margin: 5% 0;
 	}
 
-	footer{
-
+	#shop, #read{
+		padding: .5em;
+		margin: auto;
 	}
 }
 
@@ -180,17 +180,48 @@ footer{
 		background-size: cover;
 	}
 
+	h1{ 
+		letter-spacing: 0em;
+
+	}
+
 	header p{
 		display: none;
+	}
+
+	nav{
+		letter-spacing: 0em;
+	}
+
+	main h2{
+		font-size: 1.25 em;
+		padding: .5em;
+	}
+
+	main p{
+		width: 95%;
+		padding-bottom: 10%;
 	}
 
 	footer{
 		padding: 3% 10%;
 	}
 
-	.sectionwrap p{
-		width: 90%;
-		padding: 5%;
+	.large{
+		width: 96%;
+		margin: 3% 2%;
+	}
+
+	.small{
+		width: 96%;
+		margin: 3% 2%;
+	}
+
+	#shop, #read{
+		background-color: #FFF;
+		font-size: 1.75em;
+		text-align: center;
+		margin: auto;
 	}
 
 	#rightfooter{
