@@ -53,23 +53,13 @@ main{
 			width: 100%;
 	}
 
-	main p{
-	font-family: 'Frank Ruhl Libre', serif;
-	font-size: 1.1em;
-	margin: auto;
-	padding-bottom: 2em;
-	width: 65%;
-	}
-
 section{
 	background-color: #f6f0ea;
-	box-shadow: 8px 8px 10px lightgrey;
 
 }
 
 article{
 	background-color: #f1f6fd;
-	box-shadow: 8px 8px 10px lightsteelblue;
 }
 
 
@@ -85,10 +75,19 @@ footer{
 		text-decoration: none;
 	}
 
+main p{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.1em;
+	margin: auto;
+	padding-bottom: 2em;
+	width: 65%;
+}
+
 .large{ 
 	float: left;
-	margin: 2% 4%;
 	width: 56%;
+	margin: 2% 4%;
+
 }
 
 .small{
@@ -99,7 +98,6 @@ footer{
 
 #shop{
 	background-color: #faf2e8;
-	box-shadow: 5px 5px 10px lightgrey;
 	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 2em;
 	letter-spacing: .05em;
@@ -109,7 +107,6 @@ footer{
 
 #read{
 	background-color: #e1ecfa;
-	box-shadow: 5px 5px 10px lightsteelblue;
 	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 2em;
 	letter-spacing: .05em;
@@ -119,7 +116,8 @@ footer{
 
 #leftfooter{
     float: left;
-    width: 15%; 
+    width: 15%;
+  
 }
 
 #rightfooter {
@@ -140,6 +138,7 @@ footer{
 	header{
 		background: url("../images/header-flower2.jpg");
 		background-size: auto;
+		margin: auto;
 	}
 }
 
@@ -147,23 +146,25 @@ footer{
 	header p{
 		display: none;
 	}
-
 	h1{
 		display: inline-block;
 		margin: 3%;
 		width: 33.333%;
 	}
-
 	nav{
-		padding: 2%;
 		margin-bottom: 5%;
 	}
 
-	.large, .small{
+	.large{
 		letter-spacing: 0;
 		width: 100%;
 		margin: 5% 0;
-		box-shadow: none;
+	}
+
+	.small{
+		letter-spacing: 0;
+		width: 100%;
+		margin: 5% 0;
 	}
 
 	#shop, #read{
@@ -179,6 +180,7 @@ footer{
 
 	h1{ 
 		letter-spacing: 0em;
+
 	}
 
 	header p{
@@ -203,34 +205,31 @@ footer{
 		padding: 3% 10%;
 	}
 
-	.large, .small{
+	.large{
 		width: 96%;
 		margin: 3% 2%;
 	}
 
-	#shop{
-		background-color: #FFF;
-		border: 1px solid orange;
-		font-size: 1.75em;
-		text-align: center;
-		margin: 2% 25%;
-		padding: .2em 0;
+	.small{
+		width: 96%;
+		margin: 3% 2%;
 	}
 
-	#read{
+	#shop, #read{
 		background-color: #FFF;
-		border: 1px solid darkblue;
 		font-size: 1.75em;
 		text-align: center;
-		margin: 2% 25%;
-		padding: .2em 0;
+		margin: auto;
 	}
 
-	#leftfooter, #rightfooter{
+	#rightfooter{
 		float: none;
 		width: 90%;
-		padding: 1% 0;
 	}
 
+	#leftfooter{
+		float: none;
+		width: 90%;
+	}
 }
 
